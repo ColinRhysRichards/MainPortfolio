@@ -1,0 +1,28 @@
+.navbar-expand-lg .navbar-collapse {
+    margin-right: 27.5rem;
+}
+
+.navbar-brand {
+    margin-left: 6rem;
+}
+
+.bg-light {
+    background-color: #fce5fbd9!important;
+}
+
+.navbar {
+    border-top-width: .30rem;
+    border-top-style: solid;
+    border-top-color:  #1b003aa1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 120, 0.34);
+}
+
+.jumbotron {
+    background-size: 100%;
+    background-image: url(https://mobileimages.lowes.com/product/converted/501158/5011583339024.jpg);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
