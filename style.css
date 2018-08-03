@@ -1,13 +1,23 @@
 .navbar-expand-lg .navbar-collapse {
-    margin-right: 27.5rem;
+    margin-right: 29.5rem;
 }
 
 .navbar-brand {
     margin-left: 6rem;
+    font-family: 'Yesteryear', cursive;
+    font-weight: 600;
+    font-size: 27px;
+    display: inline-block;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    margin-right: 1rem;
+    line-height: inherit;
+    white-space: nowrap;
 }
 
 .bg-light {
-    background-color: #fce5fbd9!important;
+  background-color: #ffffffd9;
+    /* background-color: #fce5fbd9!important; */
 }
 
 .navbar {
@@ -15,14 +25,86 @@
     border-top-style: solid;
     border-top-color:  #1b003aa1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 120, 0.34);
+    border-bottom-width: .35rem;
+    border-bottom-style: solid;
+    border-bottom-color: #dde0e3;
+    padding: .8rem 0rem 0rem 0rem;
 }
 
+
 .jumbotron {
-    background-size: 100%;
-    background-image: url(https://mobileimages.lowes.com/product/converted/501158/5011583339024.jpg);
+    background-image: url(https://newevolutiondesigns.com/images/freebies/white-wallpaper-14.jpg);
+    margin-bottom: 0rem;
+      height: 100%; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.25rem;
     padding-left: 1.25rem;
 }
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    background-color: #dde0e3;
+    font-family: 'Roboto', cursive;
+    font-weight: 300;
+    font-size: 18px
+}
+
+#home-border {
+    border-radius:10px 10px 0 0; /*Top both sides */
+ }
+ #home-border{
+    border-radius: 10px 0 0 0; /*Only top left with radius*/
+ }
+ #contact-border {
+    border-radius: 0 10px 0 0; /*Only top right with radius*/
+ }
+
+ .jumbo-button {
+    display: block;
+    width: 100%;
+}
+
+.collapsible {
+    background-color: #1b003aa1;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #dde0e3;
+}
+
+.responsive {
+    padding: 0 10 10 10;
+  }
+
+  /* .responsive {
+    width: 100%;
+    height: auto;
+} */
