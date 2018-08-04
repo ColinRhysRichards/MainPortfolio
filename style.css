@@ -101,10 +101,19 @@
 }
 
 .responsive {
-    padding: 0 10 10 10;
+    padding: 10 10 10 10;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-  /* .responsive {
-    width: 100%;
-    height: auto;
-} */
+footer{
+    background-color:#dde0e3;
+}
+
+container{
+    text-align: center;
+}
+
+.quote .copyright{
+    text-align: center;
+}
