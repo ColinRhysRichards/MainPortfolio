@@ -5,16 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
         crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto|Yesteryear" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <link href="devicons.css" rel='stylesheet'>
-    <link href='//cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css' rel='stylesheet'>
+    <!-- <link href="devicons.css" rel='stylesheet'>
+    <link href='//cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css' rel='stylesheet'> -->
     <title>Colin Richards</title>
 </head>
 
@@ -29,22 +31,25 @@
             <div class="mx-auto" style="width: 200px;">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" id="home-border" href="#">HOME</a>
+                        <a class="nav-link" id="home-border" href="#HOME">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SKILLS</a>
+                        <a class="nav-link" href="#SKILLS">SKILLS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">PROJECTS</a>
+                        <a class="nav-link" href="#PROJECTS">PROJECTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="contact-border" href="#">CONTACT</a>
+                        <a class="nav-link" id="contact-border" href="#CONTACT">CONTACT</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="jumbotron">
+    <div id="me HOME">
+        <img id="myimg" src="./images/me.jpg">
+    </div>
+    <!-- <div class="jumbotron">
         <h1 class="display-4">Hello, world!</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured
             content or information.</p>
@@ -57,12 +62,17 @@
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
+    </div> -->
     <!-- Skills Section -->
     <section id="services">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-14 text-center">
+            <div class="row" id="SKILLS">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-node-js"></i>
+                <i class="fab fa-react"></i>
+                <!-- <div class="col-lg-14 text-center">
                     <h2 class="section-heading">Skills</h2>
                     <h3 class="section-subheading text-muted">My current skill set</h3>
                 </div>
@@ -160,52 +170,78 @@
                 </div>
                 <div class="col-sm-3 addition">
                     <div class="team-member">
-                        <span class="devicons devicons-code"></span>
-                        <p>Always Adding To The List</p>
-                    </div>
-                </div>
+                        <span class="devicons devicons-code"></span> -->
+                <p>Always Adding To The List</p>
             </div>
         </div>
+        </div>
+        </div>
     </section>
-    <section class="main-section">
+
+    <!-- <div class="main-section" id="PROJECTS">
         <div id="main-container" class="container">
-            <h1>Portfolio</h1>
+            <h1>Portfolio</h1> -->
+    <div class="row" id="PROJECTS">
+        <h1>Projects</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
             <div class="work">
                 <a href="https://colinrhysrichards.github.io/Responsive-Portfolio/">
                     <img src="./images/Responsive.jpg" alt="Responsive Website">
                 </a>
                 <h3>Responsive Website</h3>
             </div>
+        </div>
+
+        <div class="col-md-3">
             <div class="work">
                 <a href="https://colinrhysrichards.github.io/Word-Guess-Game/">
                     <img src="./images/Javascript.png" alt="Javascript Game">
                 </a>
                 <h3>Javascript Game</h3>
             </div>
+        </div>
+
+        <div class="col-md-3">
             <div class="work">
                 <a href="https://colinrhysrichards.github.io/unit-4-game/">
                     <img src="./images/Jquery.png" alt="Jquery Game">
                 </a>
                 <h3>Jquery Game</h3>
             </div>
+        </div>
+
+        <div class="col-md-3">
             <div class="work">
                 <a href="https://colinrhysrichards.github.io/Train-Homework/">
                     <img src="./images/Timers.png" alt="Timers Game">
                 </a>
                 <h3>Timers Game</h3>
             </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
             <div class="work">
                 <a href="https://colinrhysrichards.github.io/Gif-Tastic/">
                     <img src="./images/Ajax.png" alt="Ajax Giphy App">
                 </a>
                 <h3>Ajax Giphy App</h3>
             </div>
+        </div>
+
+        <div class="col-md-3">
             <div class="work">
                 <a href="https://colinrhysrichards.github.io/Gif-Tastic/">
                     <img src="./images/Ajax.png" alt="Ajax Giphy App">
                 </a>
                 <h3>React Memory Game App</h3>
             </div>
+        </div>
+
+        <div class="col-md-3">
             <div class="work">
                 <a href="https://colinrhysrichards.github.io/Gif-Tastic/">
                     <img src="./images/Ajax.png" alt="Ajax Giphy App">
@@ -213,13 +249,27 @@
                 <h3>Project 2</h3>
             </div>
         </div>
-    </section>
+    </div>
+    </div>
+    </div>
     <footer>
-        <div class="container">
-            <div class="logo">
-                <a class="navbar-brand" href="#">Colin Richards</a>
-            </div>
-            <br>
+        <div class="row">
+
+            <div class="col-md-4"></div>
+
+            <div class="col-md-4">
+                <div class="container" id="CONTACT">
+                    <div class="logo">
+                        <a class="navbar-brand" href="#">Colin Richards</a>
+                    </div>
+                    <div class="contactlinks">
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+
+                    <!-- <br>
             <div class="quote">
                 <h3>This will be my closing quote</h3>
             </div>
@@ -227,16 +277,18 @@
             <div class="icons">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUwSkn40TTW15div5Qq6O-pBSxLgAN16jKe2Ec1jt7hujbFlu89Q">
             </div>
-            <br>
-            <div class="copyright">
-                <h6>copyright twentyeighteen</h6>
+            <br> -->
+                    <div class="copyright">
+                        <h6>copyright twentyeighteen</h6>
+                    </div>
+                </div>
             </div>
-            <br>
+            <div class="col-md-4"></div>
         </div>
     </footer>
+
 </body>
 <script src="java.js">
 </script>
-</body>
 
 </html>
