@@ -222,7 +222,18 @@ container{
     background: #514aaa;
     border: 0 none;
   }
-  
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+  h1{
+    color: white;
+  }
   @media only screen and (max-width: 980px) {
     .container {
       max-width: 768px;
