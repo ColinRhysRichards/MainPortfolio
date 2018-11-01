@@ -233,6 +233,34 @@ container{
 }
   h1{
     color: white;
+    font-family: roboto;
+  }
+
+  h2{
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+  }
+  .col-md-2{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    padding-bottom: 73px;
+    padding-top: 20px;
+  }
+  .col-md-4{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
   }
   @media only screen and (max-width: 980px) {
     .container {
