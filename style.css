@@ -234,6 +234,7 @@ container{
   h1{
     color: white;
     font-family: 'Roboto';
+    text-align: left;
   }
 
   h2{
@@ -252,6 +253,35 @@ container{
     font-family: 'Oswald';
     color: pink;;
     font-size: 2em;
+  }
+
+h6{
+  font-family: 'Roboto';
+  color: rgb(100, 98, 99);
+}
+
+#projectstitle{
+  font-family: 'Roboto';
+  color: black;
+}
+
+#aboutmetitle{
+  font-family: 'Roboto';
+  color: black;
+}
+
+  .footerlinks{
+    padding: 10px;
+    color: pink;
+    font-size: 50px;
+  }
+
+  #aboutme{
+    font-family: 'Montserrat';
+    font-size: 1.5em;
+    padding: 0px 70px 70px 70px;
+    margin: 0px 60px 0px 60px;
+    color: rgba(0,0,0,.5);
   }
   .col-md-2{
     position: relative;
