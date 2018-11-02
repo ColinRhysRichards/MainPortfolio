@@ -4,7 +4,7 @@
 
 .navbar-brand {
     margin-left: 6rem;
-    font-family: 'Yesteryear', cursive;
+    font-family: 'Oswald', cursive;
     font-weight: 600;
     font-size: 27px;
     display: inline-block;
@@ -28,7 +28,7 @@
     border-bottom-width: 1.5px;
     border-bottom-style: solid;
     border-bottom-color: black;
-    padding: .8rem 0rem 0rem 0rem;
+    padding: 1.8rem 0rem 1.8rem 0rem;
 }
 
 #myimg{
@@ -233,14 +233,25 @@ container{
 }
   h1{
     color: white;
-    font-family: roboto;
+    font-family: 'Roboto';
   }
 
   h2{
+    font-family: 'Nunito';
     font-size: 32px;
     text-align: center;
     color: white;
     padding-bottom: 20px;
+  }
+  h3{
+    font-family: 'Montserrat';
+    color: white;
+  }
+
+  h4{
+    font-family: 'Oswald';
+    color: pink;;
+    font-size: 2em;
   }
   .col-md-2{
     position: relative;
@@ -262,6 +273,17 @@ container{
     padding-bottom: 20px;
     padding-top: 20px;
   }
+
+  #adding{
+    border-top: solid;
+    border-top-color: pink;
+  }
+
+  #footerName{
+    padding-top: 25px;
+    color: pink;
+  }
+
   @media only screen and (max-width: 980px) {
     .container {
       max-width: 768px;
@@ -284,6 +306,10 @@ container{
       width: 100%;
       margin-bottom: 20px;
     }
+  }
+
+  .contactlinks{
+    padding: 10px;
   }
   
   @media only screen and (max-width: 768px) {
