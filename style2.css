@@ -219,7 +219,7 @@
     padding: 0px 10px 10px 10px;
    }
 
-h5{
+ h5{
    font-size: 16.25rem;
     font-weight: 700;
     position: relative;
@@ -239,8 +239,10 @@ h5{
 
 #tileone:hover{
     background: #000000;
-}
-#tiletwo{
+} 
+
+
+ #tiletwo{
     background-color: #8797ff;
     color: white;
     height: auto;
@@ -248,7 +250,131 @@ h5{
     padding: 0px;
     font-size: 10em;
     overflow: hidden;
-}
+} 
+/* 
+h5{
+    font-size: 15rem;
+     font-weight: 700;
+     position: relative;
+     right: 50px;
+     top: 50px;
+     transition: ease-in-out 0.3s;
+ }
+ 
+ 
+ #tileone{
+     background-color: #87ffef;
+     color: white;
+     cursor: default;
+     height: auto;
+     max-height: 320px;
+     width: 100%;
+     padding: 0px;
+     font-size: 10em;
+     overflow: hidden;
+ }
+ 
+ #r1 {
+     cursor: default;
+     opacity: 0;
+     font-size: 2rem;
+     position: absolute;
+     top: 0px;
+     left: 20px;
+     transition-delay: 0.2s;
+     transition-duration: 0.3s;
+ }
+ 
+ #r2 {
+     cursor: default;
+     opacity: 0;
+     font-size: 2rem;
+     position: absolute;
+     top: 40px;
+     left: 20px;
+     transition-delay: 0.3s;
+     transition-duration: 0.3s;
+ }
+ 
+ #r3 {
+     cursor: default;
+     opacity: 0;
+     font-size: 2rem;
+     position: absolute;
+     top: 80px;
+     left: 20px;
+     transition-delay: 0.4s;
+     transition-duration: 0.3s;
+ }
+ 
+ #r4 {
+     cursor: default;
+     opacity: 0;
+     font-size: 2rem;
+     position: absolute;
+     top: 120px;
+     left: 20px;
+     transition-delay: .5s;
+     transition-duration: 0.3s;
+ }
+ 
+ #r5 {
+     cursor: default;
+     opacity: 0;
+     font-size: 2rem;
+     position: absolute;
+     top: 160px;
+     left: 20px;
+     transition-delay: .6s;
+     transition-duration: 0.3s;
+ }
+ 
+ #r6 {
+     cursor: default;
+     opacity: 0;
+     font-size: 2rem;
+     position: absolute;
+     top: 200px;
+     left: 20px;
+     transition-delay: .7s;
+     transition-duration: 0.3s;
+ }
+ 
+ 
+ #tileone:hover > #RESPONSIVE{
+     color: #87ffef;
+ }
+ 
+ #tileone:hover > #r1{
+     color: black;
+     opacity: 1;
+ }
+ 
+ #tileone:hover > #r2{
+     color: black;
+     opacity: 1;
+ }
+ 
+ #tileone:hover > #r3{
+     color: black;
+     opacity: 1;
+ }
+ 
+ #tileone:hover > #r4{
+     color: black;
+     opacity: 1;
+ }
+ 
+ #tileone:hover > #r5{
+     color: black;
+     opacity: 1;
+ }
+ 
+ #tileone:hover > #r6{
+     color: black;
+     opacity: 1;
+ } */
+
 #tilethree{
     background-color: #ffef87;
     color: white;
