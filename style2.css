@@ -216,7 +216,7 @@
     width: 100%;
     height: auto;
     /* margin: 2px; */
-    padding: 0px 0px 0px 20px;
+    padding: 0px 10px 10px 10px;
    }
 
 h5{
@@ -235,6 +235,10 @@ h5{
     padding: 0px;
     font-size: 10em;
     overflow: hidden;
+}
+
+#tileone:hover{
+    background: #000000;
 }
 #tiletwo{
     background-color: #8797ff;
@@ -256,6 +260,96 @@ h5{
 }
 #tilefour{
     background-color: #ff8797;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    font-size: 10em;
+    overflow: hidden;
+}
+#tilefive{
+    background-color: #ffb387;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    font-size: 10em;
+    overflow: hidden;
+}
+#tilesix{
+    background-color: #e64c60;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    font-size: 10em;
+    overflow: hidden;
+}
+#tileseven{
+    background-color: #87d3ff;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    font-size: 10em;
+    overflow: hidden;
+}
+#tileeight{
+    background-color: #87ffb3;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    font-size: 10em;
+    overflow: hidden;
+}
+#tilenine{
+    background-color: #87ffef;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    font-size: 10em;
+    overflow: hidden;
+}
+#tileten{
+    background-color: #ffef87;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    font-size: 10em;
+    overflow: hidden;
+}
+#tileeleven{
+    background-color: #ffb387;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    font-size: 10em;
+    overflow: hidden;
+}
+#tiletwelve{
+    background-color: #8797ff;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    font-size: 10em;
+    overflow: hidden;
+}
+#tilethirteen{
+    background-color: #87ffef;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    font-size: 10em;
+    overflow: hidden;
+}
+#tilefourteen{
+    background-color: #8797ff;
     color: white;
     height: auto;
     width: 100%;
@@ -410,5 +504,5 @@ footer{
     width: 100%;
     height: auto;
     /* margin: 2px; */
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 10px 10px;
    }
