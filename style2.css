@@ -20,6 +20,7 @@
     font-family: 'Oswald';
     color: pink;;
     font-size: 2em;
+    padding: 10px;
    }
   h6{
    font-family: 'Roboto';
@@ -230,7 +231,8 @@
 #tileone{
     background-color: #87ffef;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -245,7 +247,8 @@
  #tiletwo{
     background-color: #8797ff;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -266,7 +269,8 @@ h5{
      background-color: #87ffef;
      color: white;
      cursor: default;
-     height: auto;
+     height: 75%;
+     margin: 15px;
      max-height: 320px;
      width: 100%;
      padding: 0px;
@@ -378,7 +382,8 @@ h5{
 #tilethree{
     background-color: #ffef87;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -387,7 +392,8 @@ h5{
 #tilefour{
     background-color: #ff8797;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -396,7 +402,8 @@ h5{
 #tilefive{
     background-color: #ffb387;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -405,7 +412,8 @@ h5{
 #tilesix{
     background-color: #e64c60;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -414,7 +422,8 @@ h5{
 #tileseven{
     background-color: #87d3ff;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -423,7 +432,8 @@ h5{
 #tileeight{
     background-color: #87ffb3;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -432,7 +442,8 @@ h5{
 #tilenine{
     background-color: #87ffef;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -441,7 +452,8 @@ h5{
 #tileten{
     background-color: #ffef87;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -450,7 +462,8 @@ h5{
 #tileeleven{
     background-color: #ffb387;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -459,7 +472,8 @@ h5{
 #tiletwelve{
     background-color: #8797ff;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -468,7 +482,8 @@ h5{
 #tilethirteen{
     background-color: #87ffef;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -477,7 +492,8 @@ h5{
 #tilefourteen{
     background-color: #8797ff;
     color: white;
-    height: auto;
+    height: 75%;
+    margin: 15px;
     width: 100%;
     padding: 0px;
     font-size: 10em;
@@ -510,10 +526,18 @@ footer{
     clear: both;
    }
 
-   .footerlinks1:hover{
+#footerlinks1{
+    font-size: 50px;
+    padding: 20px;
+}
+#footerlinks2{
+    font-size: 50px;
+}
+
+   #footerlinks1:hover{
     color: pink;
    }
-   .footerlinks2:hover{
+   #footerlinks2:hover{
     color: #0270AD;
   }
   .colin:hover{
