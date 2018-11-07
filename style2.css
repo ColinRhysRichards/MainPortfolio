@@ -13,9 +13,9 @@ aside{
     padding: 0px;
 }
 
-section{
+/* section{
     height: 10000px;
-}
+} */
 .section.colored, a.download-src-link, .button {
     background: pink;
 }
@@ -166,7 +166,7 @@ a, a:hover, a:active {
     bottom: 34%;
     left: 2%;
     right: 2%;
-    content: "Contrary to popular belief, Lorem Ipsum is not simply random text.";
+    content: "Colin Richards, Web Developer, Salt Lake City,";
     font-size: 1rem;
     line-height: 1.3em;
     padding: 1rem 15rem 1rem 1rem;
@@ -257,7 +257,7 @@ a, a:hover, a:active {
     outline: none;
 }
 
-
+/* 
 h1 {
     color: white;
     font-family: 'Roboto';
@@ -289,7 +289,7 @@ h6 {
     color: rgb(100, 98, 99);
   
 }
-
+ */
 
 
 
@@ -303,6 +303,7 @@ h6 {
     color: white;
     font-family: 'Roboto';
     text-align: left;
+    font-size: 1.5em;
    }
    h2{
     font-family: 'Nunito';
@@ -314,6 +315,7 @@ h6 {
    h3{
     font-family: 'Montserrat';
     color: white;
+    font-size: 1em;
    }
    h4{
     font-family: 'Oswald';
@@ -324,6 +326,7 @@ h6 {
   h6{
    font-family: 'Roboto';
    color: rgb(100, 98, 99);
+   font-size: .5em;
   }
 
   .row {
@@ -410,6 +413,7 @@ h6 {
 #aboutmetitle{
     font-family: 'Roboto';
     color: black;
+    font-size: 1.5em;
    }
 
    .footerlinks{
@@ -420,7 +424,7 @@ h6 {
 
    #aboutme{
     font-family: 'Montserrat';
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 0px 200px 70px 200px;
     margin: 0px 60px 0px 60px;
     color: rgba(0,0,0,.5);
@@ -477,6 +481,7 @@ h6 {
 #projectstitle{
     font-family: 'Roboto';
     color: black;
+    font-size: 1.5em;
    } 
 
 .work {
@@ -520,7 +525,7 @@ h6 {
    }
 
  h5{
-   font-size: 16.25rem;
+   font-size: 10rem;
     font-weight: 700;
     position: relative;
     right: 50px;
@@ -955,3 +960,30 @@ footer{
     /* margin: 2px; */
     padding: 0px 10px 10px 10px;
    }
+/* 
+   h1{
+    color: white;
+    font-family: 'Roboto';
+    text-align: left;
+   }
+   h2{
+    font-family: 'Nunito';
+    font-size: 32px;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+   }
+   h3{
+    font-family: 'Montserrat';
+    color: white;
+   }
+   h4{
+    font-family: 'Oswald';
+    color: pink;;
+    font-size: 2em;
+    padding: 10px;
+   }
+  h6{
+   font-family: 'Roboto';
+   color: rgb(100, 98, 99);
+  } */
