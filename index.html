@@ -48,9 +48,9 @@
 
 <body>
 
-        <button onclick="scrollY(100)" class="down-arrow" >⇪</button>
+        <!-- <button onclick="scrollY(100)" class="down-arrow" >⇪</button> -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
         <a class="navbar-brand" href="#">Colin Richards</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -148,44 +148,44 @@
     <div class="row" id="tiles">
         <div class="col-md-1"></div>
         <div class="col-md-2">
-            <a class="projecttiles" href="https://colinrhysrichards.github.io/Responsive-Portfolio/"></a>
+            <a class="projecttiles" href="https://colinrhysrichards.github.io/Responsive-Portfolio/">
             <h6>Media Queries</h6>
             <div id="tileone" >
                 <h5>REASPONSIVE</h5>
                 </div>
+            </a>
             </div>
         <div class="col-md-2">
-            <a class="projecttiles" href="https://colinrhysrichards.github.io/Word-Guess-Game/"></a>
+            <a class="projecttiles" href="https://colinrhysrichards.github.io/Word-Guess-Game/">
             <h6>Javascript Game</h6>
             <div id="tiletwo">
                 <h5>JAVASCRIPT</h5>
                 </div>
-                </div>
             </a>
         </div>
         <div class="col-md-2">
-            <a class="projecttiles" href="https://colinrhysrichards.github.io/unit-4-game/"></a>
+            <a class="projecttiles" href="https://colinrhysrichards.github.io/unit-4-game/">
             <h6>Jquery Game</h6>
             <div id="tilethree">
                 <h5>JQUERY</h5>
                 </div>
-            </div>
-        </div>
+        </a>
+    </div>
         <div class="col-md-2">
-            <div class="projecttiles">
+            <a class="projecttiles" href="https://colinrhysrichards.github.io/Train-Homework/">
             <h6>Javascript&Jquery</h6>
             <div id="tilefour">
                 <h5>J&J</h5>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-2">
-            <div class="projecttiles">
+            <a class="projecttiles" href="https://colinrhysrichards.github.io/TriviaGame/">
             <h6>J & J Game</h6>
             <div id="tilefour">
                 <h5>J&J</h5>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
             <div class="col-md-1"></div>
@@ -194,36 +194,36 @@
     <div class="row" id="tiles">
         <div class="col-md-1"></div>
         <div class="col-md-2">
-            <div class="projecttiles">
+            <a class="projecttiles" href="https://colinrhysrichards.github.io/Gif-Tastic/">
             <h6>APIs & AJAX</h6>
             <div id="tilefive">
                 <h5>APIS&AJAX</h5>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-2">
-            <div class="projecttiles">
+            <a class="projecttiles" href="https://colinrhysrichards.github.io/Train-Homework/">
             <h6>FIREBASE</h6>
             <div id="tilesix">
                 <h5>FIREBASE</h5>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-2">
-            <div class="projecttiles">
+            <a class="projecttiles" href="https://colinrhysrichards.github.io/Fifa-World-Cup/">
             <h6>Project 1</h6>
             <div id="tileseven">
                 <h5>PROJECT1</h5>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-2">
-            <div class="projecttiles">
-            <h6>Title</h6>
+            <a class="projecttiles" href="https://drive.google.com/file/d/1cKDP3RydGgwkc7YX6IrMlxb9KqomcEg5/view">
+            <h6>Node.js</h6>
             <div id="tileeight">
                 <h5>NODE.JS</h5>
                 </div>
-            </div>
+            </a>
         </div>
         <div class="col-md-2">
             <div class="projecttiles">
@@ -285,19 +285,19 @@
 
     </div>
 
-
+<!-- 
 <button type="button" class="btn">Turd</button>
 
     <div class="row">
         <div class="col-md-3">
             <div class="projecttile">
                 <div id="tileone">
-                    <a href="https://colinrhysrichards.github.io/Responsive-Portfolio/">
+                    <a href="https://colinrhysrichards.github.io/Responsive-Portfolio/"> -->
                         <!-- <img src="./images/Responsive.jpg" alt="Responsive Website"> -->
-                    </a>
-                </div>
+                    <!-- </a>
+                </div> -->
                 <!-- <h3>Responsive Website</h3> -->
-            </div>
+            <!-- </div>
         </div>
 
         <div class="col-md-3">
@@ -359,7 +359,7 @@
     </div>
     </div>
 
-    </section>
+    </section> -->
     <!-- 
     <div class="row" id="PROJECTS">
             <div class="col-md-2 projectstitle">
@@ -420,5 +420,16 @@
 <script>setTimeout(function () { document.body.className = 'page-loaded' }, 0);</script>
 <script src="java.js">
 </script>
+<script>
+var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+          var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }</script>
 
 </html>
