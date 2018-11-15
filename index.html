@@ -25,40 +25,16 @@
     <link rel="stylesheet" href="style2.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto|Yesteryear|Oswald|Montserrat|Nunito" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" src="https://github.com/peachananr/onepage-scroll/blob/master/onepage-scroll.css">
     <link src="https://github.com/peachananr/onepage-scroll/blob/master/jquery.onepage-scroll.js"> -->
-
+    <script src="java.js"></script>
     <title>Colin Richards</title>
 </head>
 
 <aside>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
-                <a class="navbar-brand" href="#">Colin Richards</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mx-auto" style="width: 200px;">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" id="home-border" href="#HOME">HOME</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#SKILLS">SKILLS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#PROJECTS">PROJECTS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="contact-border" href="#CONTACT">CONTACT</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+       
 
         <div class="section colored">
             <div class="header">
@@ -77,6 +53,31 @@
 
 
 <body>
+        <nav id="navbar" class="navbar">
+                <!-- <a class="navbar-brand" href="#">Colin Richards</a> -->
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+                    <!-- <div class="mx-auto" style="width: 200px;"> -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" id="home-border" href="#HOME">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#SKILLS">SKILLS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#PROJECTS">PROJECTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="contact-border" href="#CONTACT">CONTACT</a>
+                            </li>
+                        </ul>
+                    <!-- </div> -->
+                <!-- </div> -->
+            </nav>
 
     <div class="main">
         <!-- <section> -->
@@ -448,11 +449,24 @@
         </div>
     </footer>
 </div>
-</body>
+
+
+<!-- <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-50px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        console.log(pageYOffset)
+        console.log(prevScrollpos)
+        </script> -->
 <script>setTimeout(function () { document.body.className = 'page-loaded' }, 0);</script>
-<script src="java.js">
-</script>
-<script>
+<!-- <script>
         window.onscroll = function() {myFunction()};
         
         var navbar = document.getElementById("navbar");
@@ -465,7 +479,7 @@
             navbar.classList.remove("sticky");
           }
         }
-        </script>
+        </script> -->
 <!-- <script>
 var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
@@ -477,5 +491,5 @@ var prevScrollpos = window.pageYOffset;
           }
           prevScrollpos = currentScrollPos;
         }</script> -->
-
+    </body>
 </html>
