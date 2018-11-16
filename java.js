@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
@@ -37,3 +37,7 @@ function hasScrolled() {
     
     lastScrollTop = st;
 }
+});
+// Grab all of the tiles at once
+//Then on hover make the tile one solid color of the same color as the div it was in
+//then toggle and display hidden text that decribes that specific tiles project
