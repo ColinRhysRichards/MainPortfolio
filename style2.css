@@ -968,6 +968,15 @@ footer{
    }
    
    @media only screen and (max-width: 640px) {
+
+    #aboutme{font-family: 'Montserrat';
+    font-size: 1.5em;
+    padding: 20px 50px 20px 50px;
+    margin: 0px 30px 30px 30px;
+    color: rgba(0,0,0,.5);
+    border: 2px solid;
+    background-image: linear-gradient(90deg, #D3CCE3, #E9E4F0 );
+    }
     #masthead {
      position: static;
      margin-bottom: 20px;
