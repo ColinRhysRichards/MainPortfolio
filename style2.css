@@ -498,7 +498,7 @@ h6 {
     -webkit-transform: scale(1.1);
    }
    .fa-html5:hover{
-    color: #E44D26;
+    color: #dd4b25;
    }
    .fa-css3-alt:hover{
     color: #254BDD;
@@ -507,16 +507,20 @@ h6 {
     color: #E8D44D;
    }
    .fa-node-js:hover{
-    color: #87C010;
+    color:#74b857;
    }
    .fa-github:hover{
-    color: pink;
+    color: white;
    }
    .fa-git-square:hover{
-    color: #D74C35;
+    color: #dd4b25;
    }
    .fab h2:hover{
-       color: pink;
+       color: #FC5C7D;
+   }
+
+   .fa-react:hover{
+       color: #61dafb;
    }
 
    .adding {
