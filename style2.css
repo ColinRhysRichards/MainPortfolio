@@ -7,6 +7,16 @@ html, body {
     /* display: block; */
 }
 
+
+.skills{
+    padding: 2rem;
+}
+
+.jumbotron{
+    background-image: url("./images/me.jpg");
+    width: 100%;
+}
+
 aside{
     width: 100%;
     height: 100%;
@@ -19,7 +29,7 @@ aside{
 } */
 .section.colored, a.download-src-link, .button {
 
-    background-color: #FC5C7D;
+    background-color: #221b43;
     z-index: 3;
 }
 a, a:hover, a:active, .header .title .title2:before {
@@ -182,10 +192,12 @@ a, a:hover, a:active {
     bottom: 30%;
     left: 1%;
     right: 0%;
-    content: "Colin Richards, Web Developer, Salt Lake City,";
+    content: "Hello, I'm Colin Richards. I am looking for oppurtunities in web development, with either an entry level position or an internship.";
     font-size: 1rem;
-    line-height: 1.3em;
-    padding: 1rem 15rem 1rem 1rem;
+    line-height: 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    text-transform: initial;
+    letter-spacing: .01em;
     background: linear-gradient(rgb(255, 255, 255), rgb(231, 231, 231));
     opacity: 0;
     text-align: left;
@@ -344,7 +356,7 @@ h6 {
    color: rgb(100, 98, 99);
    font-size: .5em;
   }
-
+/* 
   .row {
     display: -ms-flexbox;
     display: flex;
@@ -373,7 +385,7 @@ h6 {
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
-   }
+   } */
 
 /* NAVBAR */
 
@@ -432,7 +444,7 @@ h6 {
   .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.25rem;
     padding-left: 1.25rem;
-    color: white;
+    color: red;
     display: -webkit-box;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -451,9 +463,9 @@ h6 {
     padding: .5rem 1rem;
     font-family: 'Roboto', cursive;
     font-weight: 300;
-    font-size: 18px;
-    color: white;
-    margin: 1em 2em 1em 2em;
+    font-size: 1rem;
+    color: red;
+    margin: 1rem 1rem 1rem 1rem;
     
   }
 
@@ -481,8 +493,23 @@ h6 {
     font-family: 'Roboto';
     color: black;
     font-size: 1.5em;
-    padding: 30px 0px 20px 0px;
+    padding: 1rem 0rem 1rem 0rem;
    }
+
+ #SKILLS{
+    font-family: 'Roboto';
+    color: white;
+    font-size: 1.5em;
+    padding: 2rem 0rem 0rem 0rem;
+ }  
+
+ #PROJECTS{
+        font-family: 'Roboto';
+        color: black;
+        font-size: 1.5em;
+        padding: 2rem 0rem 0rem 0rem;
+     }  
+ 
 
    #aboutmetitlediv{
     padding: 30px 0px 20px 0px;
@@ -503,7 +530,7 @@ h6 {
     border: 4px solid;
     background-image: linear-gradient(90deg, #5cfcb95e, #5cfcb9 );
    } */
-   #aboutme {
+   /* #aboutme {
     font-family: 'Montserrat';
     font-size: 0.75em;
     padding: 50px 120px 50px 120px;
@@ -512,7 +539,7 @@ h6 {
     border: 4px solid;
     box-shadow: 20px 20px 50px grey;
     background-image: linear-gradient(90deg, #5cfcb95e, #5cfcb9 );
-}
+} */
 
 /* SKILLS  */
 
@@ -907,6 +934,7 @@ footer{
 
   .copyright{
     text-align: center;
+    
   }
 
   container{
@@ -938,6 +966,9 @@ footer{
     text-decoration: none;
   }
 
+  .card-body{
+      text-align: center;
+  }
 /* MEDIA QUERIES  */
 
 @media only screen and (max-width: 980px) {
@@ -1015,13 +1046,14 @@ footer{
 } */
 #aboutme {
     font-family: 'Montserrat';
-    font-size: 0.75em;
+    font-size: 1rem;
     padding: 50px 120px 50px 120px;
     margin: 0px 0px 60px 0px;
     color: rgba(0,0,0,.65);
     border: 4px solid;
-    box-shadow: 20px 20px 50px grey;
-    background-image: linear-gradient(90deg, #5cfcb95e, #5cfcb9 );
+    box-shadow: 5px 5px 15px grey;
+    background-color: #5cfcb9;
+    /* background-image: linear-gradient(90deg, #5cfcb95e, #5cfcb9 ); */
 }
    
    @media only screen and (max-width: 768px) {
@@ -1055,7 +1087,7 @@ footer{
         border-radius: .25rem;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     }
-    #aboutme {
+    /* #aboutme {
         font-family: 'Montserrat';
         font-size: 1em;
         padding: 50px 200px 50px 200px;
@@ -1063,7 +1095,7 @@ footer{
         color: rgba(0,0,0,.65);
         border: 4px solid;
         background-image: linear-gradient(90deg, #5cfcb95e, #5cfcb9 );
-    }
+    } */
     .main-section,
     .sidebar {
      max-width: 100%;
@@ -1097,19 +1129,86 @@ footer{
    
    @media only screen and (max-width: 640px) {
 
-nav, .navbar{
+.col-md-2{
+    text-align: center;
+}
+
+.nav, .navbar{
     display: none;
     padding: -0.5rem 1rem;
 }
 
-    #aboutme{font-family: 'Montserrat';
+#aboutmetitle {
+    font-family: 'Roboto';
+    color: black;
+    font-size: 3.5em;
+    padding: 1rem 0rem 1rem 12rem;
+}
+
+#PROJECTS {
+    font-family: 'Roboto';
+    color: black;
+    font-size: 3.5em;
+    padding: 2rem 0rem 0rem 12rem;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btn-primary {
+    color: #fff;
+    font-size: 2.5rem;
+    background-color: #FC5C7D;
+    border-color: #654ea3;
+    text-align: center;
+}
+
+
+
+h4 {
+    font-family: 'Oswald';
+    color: #FC5C7D;
+    font-size: 3.25em;
+    padding: 10px;
+}
+
+h6 {
+    font-family: 'Roboto';
+    color: rgb(100, 98, 99);
+    font-size: 1.5em;
+}
+
+#aboutme {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    padding: 20px 50px 50px 50px;
+    margin: 0px 0px 60px 0px;
+    color: rgba(0,0,0,.65);
+    border: 4px solid;
+    box-shadow: 5px 5px 15px grey;
+    background-color: #5cfcb9;
+    /* background-image: linear-gradient(90deg, #5cfcb95e, #5cfcb9 ); */
+}
+
+#SKILLS {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 4.5em;
+    padding: 2rem 0rem 0rem 13rem;
+}
+    /* #aboutme{font-family: 'Montserrat';
     font-size: 1.5em;
     padding: 20px 50px 20px 50px;
     margin: 0px 30px 30px 30px;
     color: rgba(0,0,0,.5);
     border: 2px solid;
     background-image: linear-gradient(90deg, #D3CCE3, #E9E4F0 );
-    }
+    } */
     #masthead {
      position: static;
      margin-bottom: 20px;
@@ -1145,7 +1244,7 @@ nav, .navbar{
     border: 1px solid transparent;
     padding: .375rem .75rem;
     margin: .10rem;
-    font-size: .75rem;
+    font-size: 2.25rem;
     line-height: 1.5;
     border-radius: .25rem;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
@@ -1182,7 +1281,7 @@ nav, .navbar{
     -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
-    padding: 0px 0px 0px 60px;
+    /* padding: 0px 0px 0px 60px; */
   }
 
  
@@ -1246,15 +1345,20 @@ nav, .navbar{
     color: #fff;
     background-color: #FC5C7D;
     border-color: #654ea3;
+    text-align: center;
+    
 }
 
 .btn-primary:hover {
     color: #fff;
     background-color: #654ea3;
     border-color: #654ea3;
+    text-align: center;
 }
 
 .card{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -1267,7 +1371,7 @@ position: relative;
     border: 4px solid #6A82FB;
     border-image-source: linear-gradient(150deg, #f995d1, #6A82FB);
     border-image-slice: 20;
-    box-shadow:20px 20px 50px grey; 
+    box-shadow:5px 5px 15px grey; 
     /* border-radius: 0.25rem; */
 }
 
