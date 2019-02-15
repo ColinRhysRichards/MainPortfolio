@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto|Yesteryear|Oswald|Montserrat|Nunito" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto|Yesteryear|Oswald|Montserrat|Nunito"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="portfolio.js"></script>
     <title>Colin Richards</title>
 </head>
 
@@ -33,22 +35,24 @@
             <a class="nav-link" href="#CONTACT">contact</a>
         </li>
     </ul> -->
-
+    <!-- <div class="row"> -->
+    <!-- <div class="col-xs-12 col-md-12"> -->
     <aside id="asideBG">
         <div class="section colored">
             <div class="header">
                 <div class="title">
-                    <h1 class="title1"><span class="char1">c</span><span class="char2">o</span><span class="char3">l</span><span
-                            class="char4">i</span><span class="char5">n</span></h1>
-                    <h1 class="title2"><span class="char1">c</span><span class="char2">o</span><span class="char3">l</span><span
-                            class="char4">i</span><span class="char5">n</span></h1>
+                    <h1 class="title1"><span class="char1">c</span><span class="char2">o</span><span
+                            class="char3">l</span><span class="char4">i</span><span class="char5">n</span></h1>
+                    <h1 class="title2"><span class="char1">c</span><span class="char2">o</span><span
+                            class="char3">l</span><span class="char4">i</span><span class="char5">n</span></h1>
                 </div>
                 <div class="subtitle">
                     <h3>Web Developer</h3>
                 </div>
             </div>
-        </div>
+            <!-- </div> -->
     </aside>
+    <!-- </div> -->
 
     <!-- <div class="row">
         <div class="col-1"></div>
@@ -126,9 +130,11 @@
 
         <div class="row">
             <div class="col-md-4"></div>
-            <div class="col-md-4"><h3 class="skills">always adding to the list</h3></div>
             <div class="col-md-4">
-                
+                <h3 class="skills">always adding to the list</h3>
+            </div>
+            <div class="col-md-4">
+
             </div>
         </div>
 
@@ -142,115 +148,113 @@
             </div>
             <div class="col-md-4"></div>
         </div>
+
         <div class="row">
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./images/react.PNG" alt="Card image cap">
-                    <div class="card-body">
+            <div class="col-md-3" onmouseenter="mouseEnter()" onmouseleave="mouseLeave()">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/react.PNG" alt="Card image">
+                    <div class="card-img-overlay">
                         <h5 class="card-title">Memory Game Built With React</h5>
-                        <p class="card-text">React, HTML, CSS, node.js, jQuery</p>
-                        <a href="https://colinrhysrichards.github.io/Memory-Game-React/" target="_blank" class="btn btn-primary">Site
-                            <a href="https://github.com/ColinRhysRichards/Memory-Game-React" target="_blank" class="btn btn-primary">Github</a>
+                        <p className="card-text practice" style="display:none">React, HTML, CSS, node.js, jQuery</p>
+                        <a className="nav-link practice" href="https://colinrhysrichards.github.io/Memory-Game-React/">Link</a>
+                        <a className="nav-link practice" href="https://github.com/ColinRhysRichards/Memory-Game-React">Link</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./images/javascriptgame.PNG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Javascript Game</h5>
-                        <p class="card-text">HTML, CSS, Javascript</p>
-                        <a href="https://colinrhysrichards.github.io/Word-Guess-Game/" target="_blank" class="btn btn-primary">Site
-                            <a href="https://github.com/ColinRhysRichards/Word-Guess-Game.git" target="_blank" class="btn btn-primary">Github</a>
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/friendfinder.PNG" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Express</h5>
+                        <p class="card-text">-in to additional content. This content is a little bit longer.</p>
+                        <a href="https://boiling-wildwood-10336.herokuapp.com/">Site</a>
+                        <a href="https://github.com/ColinRhysRichards/friendFinder">Github</a>
                     </div>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./images/jquerygame.PNG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">jQuery</h5>
-                        <p class="card-text">HTML, CSS, jQuery</p>
-                        <a href="https://colinrhysrichards.github.io/unit-4-game/" target="_blank" class="btn btn-primary">Site
-                            <a href="https://github.com/ColinRhysRichards/unit-4-game.git" target="_blank" class="btn btn-primary">Github</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./images/j&j.PNG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Javascript & jQuery</h5>
-                        <p class="card-text">HTML, CSS, Javascript, jQuery</p>
-                        <a href="https://colinrhysrichards.github.io/TriviaGame/" target="_blank" class="btn btn-primary">Site
-                            <a href="https://github.com/ColinRhysRichards/TriviaGame" target="_blank" class="btn btn-primary">Github</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./images/firebase.PNG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Firebase</h5>
-                        <p class="card-text"></p>
-                        <a href="https://colinrhysrichards.github.io/Train-Homework/" target="_blank" class="btn btn-primary">Site
-                            <a href="https://github.com/ColinRhysRichards/Train-Homework" target="_blank" class="btn btn-primary">Github</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./images/giphy.PNG" alt="Card image cap">
-                    <div class="card-body">
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/giphy.PNG" alt="Card image">
+                    <div class="card-img-overlay">
                         <h5 class="card-title">APIs & AJAX</h5>
-                        <p class="card-text"></p>
-                        <a href="https://colinrhysrichards.github.io/Gif-Tastic/" target="_blank" class="btn btn-primary">Site
-                            <a href="https://github.com/ColinRhysRichards/Gif-Tastic" target="_blank" class="btn btn-primary">Github</a>
+                        <p class="card-text">-in to additional content. This content is a little bit longer.</p>
+                        <a href="https://colinrhysrichards.github.io/Gif-Tastic/">Site</a>
+                        <a href="https://github.com/ColinRhysRichards/Gif-Tastic">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/firebase.PNG" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Firebase</h5>
+                        <p class="card-text">-in to additional content. This content is a little bit longer.</p>
+                        <a class="nav-link" href="https://colinrhysrichards.github.io/Train-Homework/">Site</a>
+                        <a class="nav-link" href="https://github.com/ColinRhysRichards/Train-Homework">Github</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./images/worldcup.PNG" alt="Card image cap">
-                    <div class="card-body">
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/worldcup.PNG" alt="Card image">
+                    <div class="card-img-overlay">
                         <h5 class="card-title">Project 1</h5>
                         <p class="card-text">HTML, CSS, Javascript, jQuery, APIs</p>
-                        <a href="https://colinrhysrichards.github.io/Fifa-World-Cup/" target="_blank" class="btn btn-primary">Site
-                            <a href="https://github.com/ColinRhysRichards/Fifa-World-Cup" target="_blank" class="btn btn-primary">Github</a>
+                        <a href="https://colinrhysrichards.github.io/Fifa-World-Cup/">Site</a>
+                        <a href="https://github.com/ColinRhysRichards/Fifa-World-Cup">Github</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./images/nodejs.PNG" alt="Card image cap">
-                    <div class="card-body">
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/nodejs.PNG" alt="Card image">
+                    <div class="card-img-overlay">
                         <h5 class="card-title">Node.js</h5>
                         <p class="card-text">Video of an application using node.js</p>
-                        <a href="https://drive.google.com/file/d/1cKDP3RydGgwkc7YX6IrMlxb9KqomcEg5/view" target="_blank"
-                            class="btn btn-primary">Site
-                            <a href="https://github.com/ColinRhysRichards/liri-node-app" target="_blank" class="btn btn-primary">Github</a>
+                        <a href="https://drive.google.com/file/d/1cKDP3RydGgwkc7YX6IrMlxb9KqomcEg5/view">Site</a>
+                        <a href="https://github.com/ColinRhysRichards/liri-node-app">Github</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img class="card-img-top" src="./images/friendfinder.PNG" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Express</h5>
-                        <p class="card-text"></p>
-                        <a href="https://boiling-wildwood-10336.herokuapp.com/" target="_blank" class="btn btn-primary">Site
-                            <a href="https://github.com/ColinRhysRichards/friendFinder" target="_blank" class="btn btn-primary">Github</a>
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/j&j.PNG" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Javascript & jQuery</h5>
+                        <p class="card-text">HTML, CSS, Javascript, jQuery</p>
+                        <a href="https://colinrhysrichards.github.io/TriviaGame/">Site</a>
+                        <a href="https://github.com/ColinRhysRichards/TriviaGame">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/jquerygame.PNG" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">jQuery</h5>
+                        <p class="card-text">HTML, CSS, jQuery</p>
+                        <a href="https://colinrhysrichards.github.io/unit-4-game/">Site</a>
+                        <a href="https://github.com/ColinRhysRichards/unit-4-game.git">Github</a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
+            <div class="col-md-3">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/javascriptgame.PNG" alt="Card image">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Javascript Game</h5>
+                        <p class="card-text">HTML, CSS, Javascript</p>
+                        <a href="https://colinrhysrichards.github.io/Word-Guess-Game/">Site</a>
+                        <a href="https://github.com/ColinRhysRichards/Word-Guess-Game.git">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row">
             <div class="col-md-4">
                 <div class="card" style="width: 100%;">
                     <img class="card-img-top" src="./images/responsiveportfolio.PNG" alt="Card image cap">
@@ -263,7 +267,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <footer>
             <div class="row">
