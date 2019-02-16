@@ -843,9 +843,7 @@ footer{
     /* color: red; */
     /* margin: 1rem 1rem 1rem 1rem; */
 }
-card:hover{
 
-}
 /* MEDIA QUERIES  */
 
 @media only screen and (max-width: 980px) {
@@ -987,7 +985,44 @@ card:hover{
    }
    
    @media only screen and (max-width: 640px) {
-
+    .linkContainer{
+        display: inline-block;
+        text-align: center;
+        font-size: 1.75rem;
+        width: 100%;    
+    }
+    .card-title {
+        margin-bottom: .75rem;
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+    .card-text{
+        font-size: 1.75rem;
+    }
+    .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        /* border: 1px solid rgba(0,0,0,.125); */
+        border-radius: 0rem;
+        height: 12rem;
+    }
+    
+    /* .card:hover > div > div{
+        display: block;
+      
+        
+    }
+    .card:hover > div{
+        background-color: rgba(0, 0, 0, 0.699);
+    } */
 .col-md-2{
     text-align: center;
 }
@@ -1008,7 +1043,7 @@ card:hover{
     font-family: 'Roboto';
     color: black;
     font-size: 3.5em;
-    padding: 2rem 0rem 0rem 12rem;
+    padding: 3rem 0rem 5rem 0rem;
 }
 
 .card-body {
@@ -1026,11 +1061,17 @@ card:hover{
     /* border-color: #654ea3; */
     text-align: center;
 }
-
+#footerlinks1{
+    font-size: 3rem;
+    padding: .5rem;
+}
+#footerlinks2{
+    font-size: 3rem;
+}
 h4 {
     font-family: 'Roboto';
-    color: #ff5350;
-    font-size: 1rem;
+    color: coral;
+    font-size: 2rem;
     padding: 10px;
 }
 
@@ -1054,11 +1095,14 @@ h6 {
 #SKILLS {
     font-family: 'Roboto';
     color: white;
-    font-size: 4.5em;
-    padding: 2rem 0rem 0rem 13rem;
+    font-size: 5.5em;
+    padding: 3rem 0rem 5rem 0rem;
 }
-
- 
+.fab {
+    font-size: 5rem;
+    color: white;
+    transition: .3s;
+}
     #masthead {
      position: static;
      margin-bottom: 20px;
