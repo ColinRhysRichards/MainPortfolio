@@ -22,6 +22,24 @@ html, body {
     background-image: url("./images/me.jpg");
     width: 100%;
 }
+/* .smallDown {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+  } */
+
+  /*Down Arrow*/
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 8px;
+  }
 
 aside{
     width: 100%;
@@ -795,17 +813,39 @@ footer{
     margin-bottom: 0rem;
     font-size: .5rem;
 }
+
+.linkContainer{
+    display: none;
+    text-align: center;    
+}
+
+.card:hover > div > div{
+    display: block;
+  
+    
+}
+.card:hover > div{
+    background-color: rgba(0, 0, 0, 0.699);
+}
+/* a{
+    cursor: pointer;
+} */
 .nav-link {
     display: inline-block;
     padding: 0rem;
+    color: coral;
+    padding-right:.25rem;
+    cursor: pointer;
     /* padding: .5rem 1rem; */
     /* font-family: 'Roboto', cursive; */
     /* font-weight: 300; */
-    /* font-size: 1rem; */
+    font-size: .75rem;
     /* color: red; */
     /* margin: 1rem 1rem 1rem 1rem; */
 }
+card:hover{
 
+}
 /* MEDIA QUERIES  */
 
 @media only screen and (max-width: 980px) {
@@ -1017,6 +1057,7 @@ h6 {
     font-size: 4.5em;
     padding: 2rem 0rem 0rem 13rem;
 }
+
  
     #masthead {
      position: static;
